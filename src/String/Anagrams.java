@@ -15,6 +15,7 @@ public class Anagrams {
 		
 		System.out.println(Arrays.equals(ch1, ch2) ? "Anagrams" : "Is not Anagrams");
 		
+		System.out.println("Test");		
 		
 
 	}
