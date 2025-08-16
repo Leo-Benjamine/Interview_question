@@ -13,13 +13,13 @@ public class Anagrams {
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
 		
+		System.out.println("Test6");
 		
 		
+		System.out.println("Test3");		
 		
 		
-		
-		
-		
+		System.out.println("Test4");
 		
 		System.out.println(Arrays.equals(ch1, ch2) ? "Anagrams" : "Is not Anagrams");
 		
