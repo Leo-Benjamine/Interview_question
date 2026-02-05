@@ -10,7 +10,8 @@ public class Subclass extends Superclass  {
 		
 	}
 
-
+	/*A subclass is the child class.
+	  It inherits (takes) the properties and methods from the superclass using the extends keyword.*/
 	
 
 }

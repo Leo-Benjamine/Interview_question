@@ -13,8 +13,6 @@ public class CharFrequency {
      char[] ch1  = str.toCharArray();
      for(char c: ch1) {
     	 map.put(c, map.getOrDefault(c, 0) + 1);
-    	 
-
      }
 System.out.println(map);
 }

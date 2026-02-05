@@ -12,7 +12,7 @@ public class Commonelement {//Find common element in two array
 		// TODO Auto-generated method stub
 		
 		 Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3));
-	        Set<Integer> set2 = new HashSet<>(Arrays.asList(2, 3, 4));
+	     Set<Integer> set2 = new HashSet<>(Arrays.asList(2, 3, 4));
 
 	        set1.retainAll(set2); // Keeps only the common elements in set1
 

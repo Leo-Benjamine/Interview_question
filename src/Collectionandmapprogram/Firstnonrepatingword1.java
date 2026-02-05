@@ -1,10 +1,14 @@
 package Collectionandmapprogram;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Firstnonrepatingword1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String[] word = {"Apple","Banana","Apple","Orange","Cucumber","Orange",};
+		Map<String, Integer> map =new HashMap<>();
 	for(String words : word) {
 		if (map.get(word) == 1) {
 		System.out.println("First non-repeating word: " + words);

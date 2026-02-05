@@ -7,8 +7,8 @@ public class Palindrome {
 		String str ="Leo Benjamine";
 	String reversed	= new StringBuilder().reverse().toString();
 	System.out.println(str.equals(reversed) ? "Palindrome" : "Is not palindrome");
-		
 
+		
 	}
 
 }

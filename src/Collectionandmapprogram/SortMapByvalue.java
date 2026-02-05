@@ -12,11 +12,11 @@ public class SortMapByvalue {
 	map.put(10, "Banana");
 	map.put(21, "Cherry");
 	map.put(25, "Apple");
-	 System.out.println("unsortmap: " + map);
+	System.out.println("unsortmap: " + map);
 	 
 	System.out.println("sort the value: ");
-	map.entrySet().stream().sorted(Map.Entry.comparingByKey())
-	.forEach(System.out::println);
+	map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
+	
 	
 	
 	}

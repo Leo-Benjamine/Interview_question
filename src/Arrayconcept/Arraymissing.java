@@ -10,11 +10,19 @@ public class Arraymissing {
 		
 		int actualSumOfArray = 0;
 		for(int num : arr) {
-			actualSumOfArray += num;	
+			//actualSumOfArray += num;
+			actualSumOfArray = actualSumOfArray + num;
 		}
 		int missingNumber = sum - actualSumOfArray;
 		System.out.println("Missing number: "+ missingNumber);
 		
+//Loop function
+//(actualsumofarray += num)
+//0+1=1
+//1+2=3
+//3+4=7
+//7+5=12
+//15-12 
 	
 
 	}

@@ -2,6 +2,8 @@ package Arrayconcept;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 //You've provided the classic Bubble Sort algorithm! This code snippet sorts an array in ascending order. Let's create a complete Java example and then trace its execution.
 //Java
 public class Sortarraywithoutbuiltinfunctions {
@@ -15,9 +17,9 @@ public class Sortarraywithoutbuiltinfunctions {
             for (int j = i + 1; j < arr.length; j++) {                
                 if (arr[i] > arr[j]) {
                     // Swap elements if arr[i] is greater than arr[j]
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+                    int temp = arr[i];// store bigger value
+                    arr[i] = arr[j];// put smaller value in left position
+                    arr[j] = temp;// put bigger value in right position
                 }  
             }
         }
@@ -28,6 +30,6 @@ public class Sortarraywithoutbuiltinfunctions {
         }
     }
 
+		
 	
-
 }

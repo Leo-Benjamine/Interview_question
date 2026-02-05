@@ -17,7 +17,21 @@ public class Removedulicate {
 			
 		}
 			
-
+//	Step 3: How the loop runs (step by step)
+//
+//	First iteration → num = 1 → set.add(1) → set = {1}
+//
+//	Second iteration → num = 2 → set.add(2) → set = {1, 2}
+//
+//	Third iteration → num = 3 → set.add(3) → set = {1, 2, 3}
+//
+//	Fourth iteration → num = 2 → set.add(2) → already exists → no change → set = {1, 2, 3}
+//
+//	Fifth iteration → num = 4 → set.add(4) → set = {1, 2, 3, 4}
+//
+//	Sixth iteration → num = 1 → already exists → no change → set = {1, 2, 3, 4}
+//
+//	Seventh iteration → num = 5 → set.add(5) → set = {1, 2, 3, 4, 5}
 	
 
 }

@@ -12,6 +12,8 @@ public class Comparearray {
         boolean isEqual = Arrays.equals(arr1, arr2);
 
         System.out.println("Arrays are equal: " + isEqual);
+        
+      
 	}
 	
 }

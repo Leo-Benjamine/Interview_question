@@ -9,6 +9,13 @@ public class Rightalignedtriangle {
 			for(int k = 1; k<=i; k++)System.out.print("* ");
 			System.out.println();
 		}
+		/*1st iteration
+		       *
+		  
+		            
+		            
+		            
+		 */
 		
 	}
 

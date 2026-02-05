@@ -11,6 +11,23 @@ public class Invertedtriangle {
 			}
 			System.out.println();
 		}
+/*
+ ist iterate
+ * * * * *
+ 2nd iteration
+ * * * *
+ 3rd iteration
+ * * *
+ 2nd iteration
+ * *
+ 1st iteration
+ *
+ 
+  
+  
+  
+  
+ */
 
 	}
 

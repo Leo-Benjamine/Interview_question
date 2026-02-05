@@ -1,3 +1,4 @@
+
 package Arrayconcept;
 public class Findtheduplicate {
 	public static void main(String[] args) {
@@ -13,6 +14,29 @@ public class Findtheduplicate {
 		}	
 	}
 }
+
 //Steps;
 //Enter the value int[] arr = {1, 2, 3, 4, 2, 7, 8, 8};
 //Next print the current Number System.out.println("Finding duplicate elements in the array: " + java.util.Arrays.toString(arr));
+//Itreation
+//iloop   j loop
+//arr[0] = arr[1]
+//1 =       2, 3, 4, 2, 7, 8, 8 = 0
+//
+//arr[1] = arr[2]
+//2        3, 4, 2, 7, 8, 8 = 2
+//
+//arr[2]=  arr[3]
+//3        4, 2, 7, 8, 8 =0
+//
+//arr[3]= arr[4]
+//4       2, 7, 8, 8 = 0
+//
+//arr[4] = arr[5]
+//2       7, 8, 8 = 0
+//
+//arr[5] =arr[6]
+//7       8, 8 = 0
+//
+//arr[6] =arr[7]
+//8        8  =8

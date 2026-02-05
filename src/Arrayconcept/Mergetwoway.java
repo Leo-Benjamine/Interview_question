@@ -1,8 +1,6 @@
 
 package Arrayconcept;
 
-import java.util.Arrays;
-
 public class Mergetwoway {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +16,7 @@ System.out.println("Merged array: ");
 
 for (int num : merged) {
     System.out.print(num + " ");
+    
 }
 	
  //System.out.println(merged);

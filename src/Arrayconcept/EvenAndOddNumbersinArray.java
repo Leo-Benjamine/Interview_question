@@ -4,7 +4,7 @@ public class EvenAndOddNumbersinArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int a[] = {10, 2, 3, 5, 6, 8, 9, 4};
+int[] a = {10, 2, 3, 5, 6, 8, 9, 4};
 
 int n= a.length;
 System.out.println("odd values");

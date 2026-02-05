@@ -15,11 +15,12 @@ public class Firstnonrepeating {
 	            count.put(c, count.getOrDefault(c, 0) + 1);
 	        }
 
-	        for (Map.Entry<Character, Integer> entry : count.entrySet()) {
+	        for(Map.Entry<Character, Integer> entry : count.entrySet()) {
 	            if (entry.getValue() == 1) {
-	                System.out.println("First non-repeating: " + entry.getKey());
+	              System.out.print("First non-repeating: " + entry.getKey());
 	                break;
 	            }
+	            
 	        }
 	}
 
