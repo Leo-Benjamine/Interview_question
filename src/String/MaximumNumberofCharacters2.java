@@ -16,7 +16,8 @@ public class MaximumNumberofCharacters2{
 
             for (int j = 0; j < st.length(); j++) {
                 if (ch == st.charAt(j)) {
-                    count++;
+                    count++
+                    ;
                 }
             }
 

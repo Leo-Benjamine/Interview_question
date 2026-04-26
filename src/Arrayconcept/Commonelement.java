@@ -17,8 +17,6 @@ public class Commonelement {//Find common element in two array
 	        set1.retainAll(set2); // Keeps only the common elements in set1
 
 	        System.out.println("Common elements: " + set1);
-	    
-	
 
 	}
 

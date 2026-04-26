@@ -16,7 +16,7 @@ public class CharacterFrequencyCounter {
 	}
 	//System.out.println("Input value ="+input +"/Output value ="+output);	
 	}
-	System.out.println("Input value ="+input +"/Output value ="+output);
+	System.out.println("Input value ="+input +"Output value ="+output);
 }
 	
 }

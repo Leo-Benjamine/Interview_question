@@ -14,7 +14,7 @@ public class Removeduplicate2 {
 		Set<Character> seen = new HashSet<>();
 		//seen.add(c) returns false for duplicates.
 		char[] ch1= st1.toCharArray();
-		
+
 		for(char c : ch1) {
 			if(seen.add(c)) {
 			result.append(c);

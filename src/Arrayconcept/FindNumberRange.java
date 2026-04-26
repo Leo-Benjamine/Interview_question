@@ -4,7 +4,7 @@ public class FindNumberRange {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr [] = {4, 3, 7, 11, 50, 1};
+		int arr [] = {4, 3, 6, 7, 9, 11, 50, 1};
 		int X = 4;
 		int Y = 10;
 

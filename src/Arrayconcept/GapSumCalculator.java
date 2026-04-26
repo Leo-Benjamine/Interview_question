@@ -12,7 +12,7 @@ public class GapSumCalculator {
 				for(int i=0; i<Output_count; i++) {
 					int result =0;
 					for(int j =i; j<arr.length; j =j+gap) {
-						result =result +arr[j];
+						result = result +arr[j];
 					}
 					System.out.println(result);
 				}			

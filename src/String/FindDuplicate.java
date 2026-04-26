@@ -10,7 +10,7 @@ public class FindDuplicate {
 		// TODO Auto-generated method stub
 		String st = "Programing";
 	Set<Character> seen	= new HashSet<>();
-	Set<Character>	Duplicate = new HashSet<>();
+	Set<Character>Duplicate = new HashSet<>();
 	 char[] ch1 = st.toCharArray();
 	 
 	 for(char c : ch1 ) {

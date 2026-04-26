@@ -3,10 +3,8 @@ package String;
 public class CountA {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 	
 		String st = "Automation and API Testing";
-			
 			char[] ch1= st.toCharArray();
 			int count = 0;
 			for(char c : ch1){
