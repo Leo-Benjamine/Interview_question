@@ -1,6 +1,6 @@
 package Arrayconcept;
 
-public class CountValues {
+public class CountValuesDB {
 	
 	public static void main (String[] args) {
 		

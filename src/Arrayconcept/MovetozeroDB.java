@@ -1,6 +1,6 @@
 package Arrayconcept;
 
-public class Movetozero {//DB
+public class MovetozeroDB {//DB
 	
 	 public static void main(String[] args) {
 
@@ -22,6 +22,9 @@ public class Movetozero {//DB
 	        // Print result
 	        for(int i = 0; i < temp.length; i++){
 	            System.out.print(temp[i] + " ");
+	            if(i<temp.length-1) {
+	            	System.out.print(",");
+	            }
 	        }
 	    }
 

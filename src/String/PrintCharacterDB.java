@@ -1,6 +1,6 @@
-package Numberprograming;
+package String;
 
-public class ArrangeNumbers {//DB
+public class PrintCharacterDB {//DB
 public static void main (String[] args) {
 	
 	String st ="a4b3c2";

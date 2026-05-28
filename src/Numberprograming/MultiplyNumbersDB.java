@@ -1,6 +1,6 @@
 package Numberprograming;
 
-public class MultiplyNumbers {
+public class MultiplyNumbersDB {
 	public static void main(String[] args) {//DB
 
         String str = "abc10x5";

@@ -1,6 +1,6 @@
 package Arrayconcept;
 
-public class Reverseonlynumber {
+public class ReverseonlynumberDB {//DB
 	 public static void main(String[] args) {
 
 	        Object arr[] = {'a',1,'b',2,'c',3};

@@ -1,6 +1,6 @@
 package Numberprograming;
 
-public class NegativeNumber {
+public class NegativeNumberDB {
 
 	public static void main(String[] args) {//DB
 		// TODO Auto-generated method stub

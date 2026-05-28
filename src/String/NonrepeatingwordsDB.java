@@ -1,6 +1,6 @@
 package String;
 
-public class Nonrepeatingwords {
+public class NonrepeatingwordsDB {
 public static void main(String[] args) {
 	
 	String st ="swiss";
