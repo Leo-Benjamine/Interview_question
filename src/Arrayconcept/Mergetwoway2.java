@@ -6,7 +6,8 @@ public class Mergetwoway2 {
 		// TODO Auto-generated method stub
 		int[] arr1 = {1, 2, 3};
         int[] arr2 = {4, 5, 6};
-
+        
+        //create empty Integer
         int[] merged = new int[arr1.length + arr2.length];
 
         int index = 0;

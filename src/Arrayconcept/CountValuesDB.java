@@ -8,10 +8,8 @@ public class CountValuesDB {
 		int numeric =0;
 		int alpha =0;
 		int alphanumeric =0;
+		
 		for(String s : input) {
-			
-			
-			
 			if(s.matches("[0-9]+")) {
 				numeric++;
 			}

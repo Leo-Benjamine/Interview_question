@@ -1,15 +1,13 @@
 package Arrayconcept;
 
 public class Arrayaccendingorderwithoutusingsort {
-	public class SortArrayWithoutInbuilt {
-
 	    public static void main(String[] args) {
 
 	        int[] arr = {5, 2, 9, 1, 3};
 
 	        // Bubble Sort logic
 	        for (int i = 0; i < arr.length - 1; i++) {
-	            for (int j = 0; j < arr.length - 1 - i; j++) {
+	            for (int j = 0; j < arr.length - 1; j++) {
 
 	                if (arr[j] > arr[j + 1]) {
 	                    // swap
@@ -26,7 +24,7 @@ public class Arrayaccendingorderwithoutusingsort {
 	            System.out.print(num + " ");
 	        }
 	    }
-	}
+	
 
 
 }
